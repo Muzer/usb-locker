@@ -1,9 +1,9 @@
 CC=g++
 CFLAGS=-c -Wall
 LDFLAGS=
-SOURCES=
+SOURCES=main.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=OpenDoors
+EXECUTABLE=USBLocker
 
 all: $(SOURCES) $(EXECUTABLE)
 	
