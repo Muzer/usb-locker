@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-c -Wall
 LDFLAGS=
-SOURCES=main.cpp
+SOURCES=main.cpp locker.cpp locker.h gui.cpp gui.h lin_funcs.cpp lin_funcs.h win_funcs.cpp win_funcs.h mac_funcs.cpp mac_funcs.h
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=USBLocker
 
